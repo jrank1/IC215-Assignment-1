@@ -29,7 +29,6 @@ function outputBooks() {
        document.write("<strong>" + books[i].publisher + "</strong>"+ "<br>" + "<br>");
        outputAuthors(books[i]);
     }
-    
  
  function outputAuthors(book) {
     for (let i=0; i<book.authors.length; i++) {
